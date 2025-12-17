@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" style="-fx-background-color: #DA70D6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadoradeimcmat.TelaCalculoController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <FlowPane alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagens/escala-de-peso.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="82.0" prefWidth="190.0" text="Calculadora de IMC" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+      <Label text="Peso (kg):" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" promptText="Digite o valor">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </TextField>
+      <Label text="Altura (m):">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" promptText="Digite o valor">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</VBox>
